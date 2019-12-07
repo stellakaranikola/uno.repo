@@ -1,5 +1,5 @@
 <?php
-include('server.php');
+include('../server.php');
 
 $sql = "CREATE TABLE users (
   id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,

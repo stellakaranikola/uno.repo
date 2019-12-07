@@ -48,7 +48,8 @@ form, .content {
 	font-size: 15px;
 	color: white;
 	background: #B0C4DE;
-	border: none;
+	border-color: black;
+	border-width: 1px;
 	border-radius: 5px;
 }
 .error {
@@ -66,4 +67,24 @@ form, .content {
 	background: #dff0d8; 
 	border: 1px solid #3c763d;
 	margin-bottom: 20px;
+}
+.centeredGageContainer {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.border {
+	border: 2px blue dashed;
+}
+
+.mr-0 {
+	margin-right: 0;
+}
+.ml-auto {
+	margin-left:auto;
+}
+.d-block {
+	display:block;
 }

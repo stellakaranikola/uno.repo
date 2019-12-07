@@ -32,6 +32,7 @@
 					<?php 
 						echo $_SESSION['success']; 
 						unset($_SESSION['success']);
+                    header('location: gameBoard');
 					?>
 				</h3>
 			</div>
