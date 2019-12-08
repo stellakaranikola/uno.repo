@@ -38,6 +38,7 @@
         $resultID = mysqli_query($db, $sql);
         $firstrow = mysqli_fetch_assoc($resultID);
         $gameID = $firstrow['gameid'];
+        $_SESSION['gameID'] = $gameID;
         echo $gameID;
 
 
@@ -48,6 +49,6 @@
         $sql = "INSERT INTO gametousersconnection (userid, gameid) VALUES ('$adminID','$gameID')";
         $resultID = mysqli_query($db, $sql);
 
-
+        header("location: ../unogame");
 
 ?>

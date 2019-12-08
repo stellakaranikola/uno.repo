@@ -1,7 +1,5 @@
 <?php
 	session_start();
-
-
 ?>
 
 
@@ -59,7 +57,7 @@
             echo "<input name='gamename' placeholder='Game Name' value=''>";
             echo "<button type='submit'> Create game </button>";
         echo "</form>";
-    ?>
+?>
 
 
 
